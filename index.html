@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Fun House Mirror 🎪</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <canvas id="gl-canvas"></canvas>
+        <div id="ui">
+            <h1 id="title">🎪 Fun House Mirror</h1>
+            <div id="controls">
+                <button class="effect-btn active" data-effect="normal">Normal</button>
+                <button class="effect-btn" data-effect="bulge">Bulge</button>
+                <button class="effect-btn" data-effect="pinch">Pinch</button>
+                <button class="effect-btn" data-effect="swirl">Swirl</button>
+                <button class="effect-btn" data-effect="wave">Wave</button>
+                <button class="effect-btn" data-effect="stretch">Stretch</button>
+            </div>
+            <div id="status">Starting camera...</div>
+        </div>
+    </div>
+    <video id="video" playsinline style="display:none;"></video>
+    <script src="script.js"></script>
+</body>
+</html>
