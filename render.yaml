@@ -1,4 +1,5 @@
-staticSites:
-  - name: funhouse-mirror
+services:
+  - type: static
+    name: funhouse-mirror
     buildCommand: ""
     staticPublishPath: "."
