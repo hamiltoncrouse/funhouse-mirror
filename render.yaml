@@ -1,7 +1,4 @@
-services:
-  - type: static
-    name: funhouse-mirror
-    env: static
+staticSites:
+  - name: funhouse-mirror
     buildCommand: ""
     staticPublishPath: "."
-    plan: free
