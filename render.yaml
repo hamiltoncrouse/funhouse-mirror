@@ -1,5 +1,7 @@
 services:
-  - type: static
+  - type: web
     name: funhouse-mirror
-    buildCommand: ""
-    staticPublishPath: "."
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
